@@ -1,16 +1,61 @@
-<Html>
-    <head>
-        <title>Robert Murray's Projects Page</title>
-    </head>
-
-    <body bgcolor="Blue">
-        <div id="Header">
-            <h1>Rob's Page</h1>
-        </div>
-        <br>
-        <br>
-        <marquee>Check out my implementation of GREP</marquee>
-
-    </body>
-
-</Html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Developer's GitHub Landing Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>John Smith</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Hi, I'm John! I'm a full-stack developer with experience in JavaScript, HTML/CSS, and PHP. I enjoy building responsive and dynamic web applications that make people's lives easier.</p>
+		</section>
+		<section id="projects">
+			<h2>My Projects</h2>
+			<ul>
+				<li>
+					<h3>Project 1</h3>
+					<p>Description of project 1.</p>
+					<a href="#">View Project</a>
+				</li>
+				<li>
+					<h3>Project 2</h3>
+					<p>Description of project 2.</p>
+					<a href="#">View Project</a>
+				</li>
+				<li>
+					<h3>Project 3</h3>
+					<p>Description of project 3.</p>
+					<a href="#">View Project</a>
+				</li>
+			</ul>
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 John Smith</p>
+	</footer>
+</body>
+</html>
